@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7f8de2-33d0-4ede-9a22-9e5e7a593299" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,6 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656476816121</updated>
       <workItem from="1656476819607" duration="47000" />
+      <workItem from="1656920409480" duration="2622000" />
     </task>
     <servers />
   </component>
