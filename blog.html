@@ -1,0 +1,225 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+
+    <!-- SEO meta tags -->
+    <meta name="keywords" content="Mustafa Kurtoglu blog, blog about AI, blog about data science, data science blog, dataviz blog, researches, ML blog, AI blog" />
+    <meta name="description" content="Mustafa Kurtoglu’s personal blog about AI, data science, researches, analytics, data visualization, software development tips & tricks" />
+
+    <!-- Viewport settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="index, follow" />
+
+    <!-- Page title -->
+    <title>Mustafa Kurtoglu personal blog - news about AI and ML, researches, tech solutions, events, data science, opinion </title>
+ <!-- Stylesheets for styling -->
+   <link type="text/css" href="/Project/view/public//css/hamburgers.css" rel="stylesheet" media="screen">
+   <link type="text/css" href="/Project/view/public//css/slick.css" rel="stylesheet" media="screen">
+   <link type="text/css" href="/Project/view/public//css/slick-theme.css" rel="stylesheet" media="screen">
+   <link type="text/css" href="/Project/view/public//css/core.css" rel="stylesheet" media="screen">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700,700i,800,900&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
+   <!-- Favicon for the website -->
+   <link rel="icon" type="image/png" href="favicon.png">
+
+   <!-- External scripts, including Google Analytics and AngularJS -->
+   <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+   <script type="text/javascript" src="/Project/view/public//js/angular.js"></script>
+   <script type="text/javascript" src="/Project/view/public//js/app.js"></script>
+
+    <!-- Viewport settings (again) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <style>
+        /* Add this custom CSS to make the blog post previews wider */
+        .masonry.container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -15px; /* Adjust margin as needed */
+        }
+
+        .masonry.container .item-masonry {
+            width: calc(40% - 30px); /* Adjust width as needed, considering margin */
+            margin: 15px; /* Adjust margin as needed */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header section -->
+    <div class="wrap">
+        <header class="p-header">
+<!-- Branding and navigation -->
+        <div class="ctr">
+            <div class="branding">
+                <a href="/index.html"> <!-- Updated href to point to index.html -->
+                    <p><b>Mustafa</b> Kurtoglu</p>
+                </a>
+            </div>
+
+
+                <!-- Hamburger menu and search button -->
+                <div id="toggle-menu" class="hamburger hamburger--slider btn-menu">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+
+                <div id="btn-search">Search</div>
+
+                <!-- Menu links -->
+                <div class="box-menu" id="my-menu">
+                    <ul class="bl-menu lsn">
+                        <!-- Menu items -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Search section -->
+            <section class="s-search" id="my-search">
+                <div class="wrapper">
+                    <div class="close"></div>
+                    <div class="box-form" id="box_form-search" ng-controller="searchCtrl">
+                        <!-- Search form -->
+                        <form ng-submit="makeSearch()" id="form_feedback">
+                            <div class="input-form">
+                                <input class="input search_input" type="text" placeholder="haker" ng-model="data.q" autofocus>
+                                <button type="submit" class="btn btn-search" id="btn_search" ng-click="makeSearch()"></button>
+                            </div>
+                            <p class="help">{{resultMSG}}</p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <!-- Blog section -->
+        <section class="s-blog" rel="main">
+            <div class="ctr">
+                <div class="box-title">
+                    <a href="/blog"><h1>Blog</h1></a>
+                    <h2>Posts about data science, AI, ML and other.</h2>
+                </div>
+
+                <!-- Tag filter -->
+                <div class="bl-tag">
+                    <div class="btn-tag">Tag filter:</div>
+                    <ul class="lsn" id="bl_tag">
+                        <!-- Tag links -->
+                    </ul>
+                </div>
+
+                <!-- Blog entries -->
+
+                <ul class="lsn masonry container">
+                    <li class="item-masonry post persent-size">
+<div class="item item-slider article_item">
+      							<a class="link" href="/blog/computational-social-science-course">
+      								<div class="bl-foto"><img src="Working_man.png"Computational Social Science course"></div>
+      								<h3>Blog Post 1</h3>
+      							</a>
+
+      							<div class="bl-info ">
+      								<div class="bl-date_time">
+      									<div class="date">February 14, 2023</div>
+      									<div class="time">2 min read</div>
+      								</div>
+      								<p class="fade">
+                                        Blog post 1 icin ornek icerik
+      								</p>
+      							</div>
+      						</div>
+					</li>
+  <li class="item-masonry post persent-size">
+<div class="item item-slider article_item">
+      							<a class="link" href="/blog/computational-social-science-course">
+      								<div class="bl-foto"><img src="Working_man2.png" alt="Computational Social Science course"></div>
+      								<h3>Blog Post 2</h3>
+      							</a>
+
+      							<div class="bl-info ">
+      								<div class="bl-date_time">
+      									<div class="date">February 14, 2023</div>
+      									<div class="time">2 min read</div>
+      								</div>
+      								<p class="fade">
+                                        Blog post 2 icin ornek icerik
+      								</p>
+      							</div>
+      						</div>
+					</li>
+					  <li class="item-masonry post persent-size">
+<div class="item item-slider article_item">
+      							<a class="link" href="/blog/computational-social-science-course">
+      								<div class="bl-foto"><img src="main_page_img.png" alt="Computational Social Science course"></div>
+      								<h3>Blog Post 3</h3>
+      							</a>
+
+      							<div class="bl-info ">
+      								<div class="bl-date_time">
+      									<div class="date">February 14, 2023</div>
+      									<div class="time">2 min read</div>
+      								</div>
+      								<p class="fade">
+                                        Blog post 3 icin ornek icerik
+      								</p>
+      							</div>
+      						</div>
+					</li>
+				</ul>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer class="p-footer">
+            <div class="ctr">
+                <div class="full-info">
+                    <div class="branding">
+                        <div class="title">Mustafa <span>Kurtoglu</span></div>
+                        <p>Istanbul, Turky<br>mustafa.kurtogluu97@gmail.com</p>
+                    </div>
+
+                        <!-- Report message -->
+                        <div class="bl-report" id="report_footer">
+                            <span class="title">Thank You!</span>
+                            <p>{{resultMSG}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social links -->
+                <div class="bl-soc_adress">
+                    <div class="soc">
+                        <ul class="lsn bl-social">
+                            <!-- Social links -->
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript libraries -->
+    <script type="text/javascript" src="/view/public/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/view/public/js/masonry_ak_own.pkgd.min.js"></script>
+    <script type="text/javascript" src="/view/public/js/jquery.viewportchecker.min.js"></script>
+    <script type="text/javascript" src="/view/public/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/view/public/js/blog.js"></script>
+    <script type="text/javascript" src="/view/public/js/core.js"></script>
+
+    <!-- Google Analytics -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=UA-124921497-1'></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-124921497-1');
+    </script>
+
+    <!-- Set active menu element -->
+    <script>
+        setActiveMenuElement('page', 1);
+    </script>
+</body>
+
+</html>

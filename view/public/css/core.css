@@ -1,3 +1,6 @@
+
+
+
 .hide-text {
   text-indent: 200%;
   white-space: nowrap;
@@ -202,6 +205,7 @@ img {
   border: 0 none;
   display: block;
   width: 100%;
+
 }
 .p-header {
   width: 100%;
@@ -2855,3 +2859,4 @@ iframe{
   max-width: 740px;
   padding-bottom: 40px;
 }
+
