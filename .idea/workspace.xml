@@ -5,30 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7f8de2-33d0-4ede-9a22-9e5e7a593299" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrix.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bring_data.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Matrix.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Working_man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Working_man2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg1-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bring_data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/m_2p5x_44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main_page_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic-Mustaf.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m_2p5x_44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_page_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/m_2p5x_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/m_2p5x_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/m_2p5x_22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Working_man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Working_man2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main_page_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic-Mustaf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/Working_man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/bg1-text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/home/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/home/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/home/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/home/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/home/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/icons/point-contact.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/icons/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/public/img/icons/time.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +85,7 @@
       <workItem from="1657343249911" duration="4038000" />
       <workItem from="1657684704480" duration="6377000" />
       <workItem from="1705229879922" duration="1107000" />
-      <workItem from="1705231006748" duration="13502000" />
+      <workItem from="1705231006748" duration="14150000" />
     </task>
     <servers />
   </component>
