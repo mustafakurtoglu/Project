@@ -1385,7 +1385,7 @@ img {
 }
 .s-about .bl-info_dev .bl-foto {
   position: relative;
-  background: url('/view/public/img/bg-about_mob.png') 50% 50% no-repeat;
+  background: url('/view/public/img/Working_man2.png') 50% 50% no-repeat;
   height: 350px;
 }
 .s-about .bl-info_dev .info {
@@ -1644,7 +1644,7 @@ img {
   }
 }
 .s-hire_me .bl-info {
-  background: url('/view/public/img/bg-hire_me_mob.png') 50% 50% no-repeat;
+  background: url('/view/public/img/contact.png') 50% 50% no-repeat;
   background-size: 100%;
   height: 190px;
   margin: 0 -15px;
