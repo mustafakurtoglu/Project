@@ -254,6 +254,29 @@ img {
   box-sizing: border-box;
   padding: 75px 20px;
 }
+ /* Navigation menu styles */
+      .box-menu {
+         text-align: center; /* Center-align menu items by default */
+      }
+
+      .bl-menu {
+         padding: 0;
+         margin: 0;
+         list-style: none; /* Remove default list styles */
+      }
+
+      .bl-menu li {
+         display: block; /* Display menu items in a block for all screens */
+         margin-bottom: 10px; /* Add some spacing between menu items */
+      }
+
+      /* Optional: Add a media query for larger screens if needed */
+      @media only screen and (min-width: 768px) {
+         .bl-menu li {
+            display: inline-block; /* Display menu items inline for larger screens */
+            margin-bottom: 0; /* Reset margin for larger screens */
+         }
+      }
 .p-header .bl-menu {
   width: 100%;
   font-size: 14px;
@@ -274,9 +297,7 @@ img {
 .p-header .bl-menu li:after {
   clear: both;
 }
-.p-header .bl-menu li span {
-  display: none;
-}
+
 .p-header .bl-menu li .hover-line {
   position: absolute;
   left: 50%;
@@ -322,9 +343,7 @@ img {
   font-size: 0.8rem;
   font-style: italic;
 }
-.p-header .bl-menu.no-active {
-  display: none;
-}
+
 .p-header #btn-search {
   display: block;
   cursor: pointer;
@@ -333,7 +352,7 @@ img {
   width: 30px;
   margin-right: 15px;
   margin-top: 10px;
-  background: url("/view/public/img/icons/search.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/search.svg") 50% 50% no-repeat;
   background-size: 17px;
   float: right;
   padding: 0;
@@ -570,7 +589,7 @@ img {
   z-index: 3;
   -webkit-backface-visibility: hidden;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
   .btn-menu {
     height: 40px;
     width: 40px;
@@ -709,7 +728,7 @@ img {
   }
   .p-footer .branding p {
     padding-left: 30px;
-    background: url('/view/public/img/icons/point-contact.svg') 0 10% no-repeat;
+    background: url('view/public/img/icons/point-contact.svg') 0 10% no-repeat;
     background-size: 11px;
   }
   .p-footer .bl-stay {
@@ -765,7 +784,7 @@ img {
   text-align: left;
   background-size: cover;
   background-position: 50%;
-  background-image: url('/view/public/img/bg1.png');
+  background-image: url('view/public/img/bg1.png');
   display: none;
 }
 .s-home .ctr-bg h1 {
@@ -936,7 +955,7 @@ img {
   content: '';
   width: 8px;
   height: 8px;
-  background: url("/view/public/img/icons/down-arrow.svg");
+  background: url("view/public/img/icons/down-arrow.svg");
   background-size: 8px;
   right: -15px;
   top: 32%;
@@ -1113,7 +1132,7 @@ img {
   content: '';
   width: 8px;
   height: 8px;
-  background: url("/view/public/img/icons/down-arrow.svg");
+  background: url("view/public/img/icons/down-arrow.svg");
   background-size: 8px;
   right: -15px;
   top: 32%;
@@ -1385,7 +1404,7 @@ img {
 }
 .s-about .bl-info_dev .bl-foto {
   position: relative;
-  background: url('/view/public/img/Working_man2.png') 50% 50% no-repeat;
+  background: url('view/public/img/Working_man2.png') 50% 50% no-repeat;
   height: 350px;
 }
 .s-about .bl-info_dev .info {
@@ -1437,7 +1456,7 @@ img {
   .s-about .bl-info_dev {
     position: relative;
     margin: 0 -30px 15px;
-    background: url('/view/public/img/bg_about.png') 50% 50% no-repeat;
+    background: url('view/public/img/bg_about.png') 50% 50% no-repeat;
     height: 600px;
     margin: 0 -60px;
   }
@@ -1453,7 +1472,7 @@ img {
   }
   .s-about .bl-info_dev .city {
     padding-left: 20px;
-    background: url('/view/public/img/icons/point-contact.svg') 0 30% no-repeat;
+    background: url('view/public/img/icons/point-contact.svg') 0 30% no-repeat;
     background-size: 11px;
   }
   .s-about .bl-full_info {
@@ -1525,7 +1544,7 @@ img {
   }
 }
 .s-subscribe .bl-info {
-  background: url('/view/public/img/bg-subscribe_mob.png') 50% 50% no-repeat;
+  background: url('view/public/img/bg-subscribe_mob.png') 50% 50% no-repeat;
   background-size: 100%;
   height: 310px;
   margin: 0 -15px;
@@ -1604,7 +1623,7 @@ img {
     font-size: 1.2rem;
   }
   .s-subscribe .bl-info {
-    background: url('/view/public/img/subscribe.jpg') 50% 50% no-repeat;
+    background: url('view/public/img/subscribe.jpg') 50% 50% no-repeat;
     height: 600px;
     margin: 0 -60px;
   }
@@ -1644,7 +1663,7 @@ img {
   }
 }
 .s-hire_me .bl-info {
-  background: url('/view/public/img/contact.png') 50% 50% no-repeat;
+  background: url('view/public/img/contact.png') 50% 50% no-repeat;
   background-size: 100%;
   height: 190px;
   margin: 0 -15px;
@@ -1774,7 +1793,7 @@ img {
     padding: 30px 30px 100px;
   }
   .s-hire_me .bl-info {
-    background: url('/view/public/img/hire.jpg') 50% 50% no-repeat;
+    background: url('view/public/img/hire.jpg') 50% 50% no-repeat;
     height: 390px;
     margin: 0 -30px;
   }
@@ -1850,7 +1869,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .s-hire_me .bl-info {
-    background: url('/view/public/img/bg-hire_me_dsc.png') 50% 50% no-repeat;
+    background: url('view/public/img/bg-hire_me_dsc.png') 50% 50% no-repeat;
     margin: 0 -30px;
     padding-top: 0;
   }
@@ -1925,27 +1944,27 @@ img {
   overflow: hidden;
 }
 .bl-soc_adress .bl-social li.upwork:before {
-  background: url("/view/public/img/icons/upwork.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/upwork.svg") 50% 50% no-repeat;
   background-size: 30px;
 }
 .bl-soc_adress .bl-social li.kaggle:before {
-  background: url("/view/public/img/icons/kaggle.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/kaggle.svg") 50% 50% no-repeat;
   background-size: 30px;
 }
 .bl-soc_adress .bl-social li.github:before {
-  background: url("/view/public/img/icons/github.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/github.svg") 50% 50% no-repeat;
   background-size: 30px;
 }
 .bl-soc_adress .bl-social li.linkedin:before {
-  background: url("/view/public/img/icons/linkedin.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/linkedin.svg") 50% 50% no-repeat;
   background-size: 30px;
 }
 .bl-soc_adress .bl-social li.angel_co:before {
-  background: url("/view/public/img/icons/angel_co.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/angel_co.svg") 50% 50% no-repeat;
   background-size: 30px;
 }
 .bl-soc_adress .bl-social li.telegram:before {
-  background: url("/view/public/img/icons/telegram.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/telegram.svg") 50% 50% no-repeat;
   background-size: 30px;
 }
 .bl-soc_adress .bl-social li:last-child {
@@ -2189,16 +2208,16 @@ input {
   width: 20px;
   height: 38px;
   float: right;
-  background: #000000 url("/view/public/img/icons/search_white.svg") 50% 50% no-repeat;
+  background: #000000 url("view/public/img/icons/search_white.svg") 50% 50% no-repeat;
   background-size: 20px;
   border: none;
 }
 .s-search .btn-search:hover {
-  background: url("/view/public/img/icons/search_white.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/search_white.svg") 50% 50% no-repeat;
   background-size: 20px;
 }
 .s-search .btn-search:active {
-  background: url("/view/public/img/icons/search_white.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/search_white.svg") 50% 50% no-repeat;
   background-size: 20px;
 }
 .s-search .help {
@@ -2239,7 +2258,7 @@ input {
   width: 20px;
   height: 20px;
   padding: 15px;
-  background: url("/view/public/img/icons/close2.svg") 50% 50% no-repeat;
+  background: url("view/public/img/icons/close2.svg") 50% 50% no-repeat;
   background-size: 15px;
   cursor: pointer;
   -webkit-transition: color 0.4s;
@@ -2249,7 +2268,7 @@ input {
   transition: color 0.4s;
 }
 .close:hover {
-  background-image: url("/view/public/img/icons/close2.svg");
+  background-image: url("view/public/img/icons/close2.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 15px;
@@ -2499,12 +2518,12 @@ h3 {
 .article_item .bl-date_time .time {
   float: right;
   padding-left: 25px;
-  background: url("/view/public/img/icons/time.svg") 0% 50% no-repeat;
+  background: url("view/public/img/icons/time.svg") 0% 50% no-repeat;
   background-size: 15px;
   text-align: right;
 }
 .article_item .bl-date_time .time.portfolio {
-  background: url("/view/public/img/icons/date.svg") 0% 45% no-repeat;
+  background: url("view/public/img/icons/date.svg") 0% 45% no-repeat;
   background-size: 15px;
 }
 /* ÐšÐ½Ð¾Ð¿ÐºÐ¸ Ð¿Ð¾Ð´ÐµÐ»Ð¸Ñ‚ÑŒÑÑ */
@@ -2575,7 +2594,7 @@ iframe{
   margin: 0 -15px 20px;
 }
 .slick-loading .slick-list {
-  background: #ffffff url('/view/public/img/ajax-loader.gif') center center no-repeat;
+  background: #ffffff url('view/public/img/ajax-loader.gif') center center no-repeat;
 }
 .slick-dots {
   bottom: -35px;
