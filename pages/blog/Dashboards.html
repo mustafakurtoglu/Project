@@ -3,7 +3,6 @@
 
 <head>
 
-
     <!-- Viewport settings -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="index, follow" />
@@ -24,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="../../view/public/image/png" href="/favicon.png">
 
     <!-- AngularJS scripts -->
     <script type="text/javascript" src="../../view/public/js/angular.js"></script>
@@ -33,13 +32,13 @@
 
 
         .bl-info img {
-            margin-top: 320px;
+            margin-top: 10px;
 
             display: block;
             width: 100%;
         }
         .bl-iinfo img {
-            margin-top: 400px;
+            margin-top: 10px;
 
             display: block;
             width: 100%;
@@ -74,39 +73,22 @@
             <div class="box-menu" id="my-menu">
                <ul class="bl-menu lsn">
                   <!-- Menu items -->
-                  <li class="page1"><i class="hover-line"></i><a href="blog.html">Blog</a></li>
-                  <li class="page3"><i class="hover-line"></i><a href="about.html">About me</a></li>
+                  <li class="page1"><i class="hover-line"></i><a href="../blog.html">Blog</a></li>
+                  <li class="page3"><i class="hover-line"></i><a href="../about.html">About me</a></li>
                   <!-- <li class="page4"><i class="hover-line"></i><a href="/subscribe">subscribe</a></li> -->
-                  <li class="page8"><i class="hover-line"></i><a href="contact.html">Contact</a></li>
+                  <li class="page8"><i class="hover-line"></i><a href="../contact.html">Contact</a></li>
                </ul>
             </div>
         </header>
 
-        <!-- Search section -->
-        <section class="s-search" id="my-search">
-            <!-- Search form -->
-            <div class="wrapper">
-                <div class="close"></div>
-                <div class="box-form" id="box_form-search" ng-controller="searchCtrl">
-                    <form ng-submit="makeSearch()" id="form_feedback">
-                        <div class="input-form">
-                            <input class="input search_input" type="text" placeholder="haker" ng-model="data.q" autofocus>
-                            <button type="submit" class="btn btn-search" id="btn_search" ng-click="makeSearch()"></button>
-                        </div>
-                        <p class="help">{{resultMSG}}</p>
-                    </form>
-                </div>
-            </div>
-        </section>
     </div>
-
-        <!-- Contact Section -->
-        <section class="s-hire_me" rel="main">
+ <!-- Blog section -->
+        <section class="s-blog" rel="main">
             <div class="ctr">
                 <div class="box-title">
                     <!-- Title with Mustafa Kurtoglu's name -->
                     <h1>Dashboards</h1>
-                    <h2>Screenshots of my some of the dashboards I have made.</h2>
+                    <h2>(WIP) Screenshots of my some of the dashboards I have made. I will add additional information here this page is WIP.</h2>
                 </div>
                 <div class="bl-info">
                     <img src="../../view/public/img/dash1.png" alt="Dashboard Screenshot">
