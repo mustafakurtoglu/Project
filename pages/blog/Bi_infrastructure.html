@@ -1,0 +1,168 @@
+
+<!doctype html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<html ng-app="myApp">
+
+
+            <head>
+
+    <!-- Viewport settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="index, follow" />
+
+    <!-- Title for the webpage -->
+    <title>Contact Mustafa Kurtoglu - data scientist, researcher and data analytic </title>
+
+    <!-- Stylesheets -->
+    <link type="text/css" href="../../view/public/css/hamburgers.css" rel="stylesheet" media="screen" />
+    <link type="text/css" href="../../view/public/css/slick.css" rel="stylesheet" media="screen" />
+    <link type="text/css" href="../../view/public/css/slick-theme.css" rel="stylesheet" media="screen" />
+    <link type="text/css" href="../../view/public/css/core.css" rel="stylesheet" media="screen" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700,700i,800,900&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <!-- Viewport settings again -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Favicon -->
+    <link rel="icon" type="../../view/public/image/png" href="/favicon.png">
+
+    <!-- AngularJS scripts -->
+    <script type="text/javascript" src="../../view/public/js/angular.js"></script>
+    <script type="text/javascript" src="../../view/public/js/app.js"></script>
+    <style>
+        .bl-foto1 img {
+
+            display: block;
+            width: 90%;
+			max-height: 400px;
+
+		        }
+        .bl-foto2 img {
+
+            display: block;
+            width: 90%;
+			max-height: 250px;
+
+		        }
+
+    </style>
+            </head>
+        	<body>
+    <div class="wrap">
+
+    <!-- Header section -->
+    <div class="wrap">
+        <header class="p-header">
+            <!-- Navigation and branding elements -->
+                     <!-- Logo and navigation menu -->
+         <div class="ctr">
+            <div class="branding">
+               <a href="../../index.html">
+                  <p><b>Mustafa</b> Kurtoglu</p>
+               </a>
+            </div>
+            <!-- Hamburger menu button -->
+            <div id="toggle-menu" class="hamburger hamburger--slider btn-menu">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        <div class="box-menu" id="my-menu">
+            <ul class="bl-menu lsn">
+             <!-- Menu items -->
+                  <li class="page1"><i class="hover-line"></i><a href="../blog.html">Blog</a></li>
+                  <li class="page3"><i class="hover-line"></i><a href="../about.html">About me</a></li>
+                  <!-- <li class="page4"><i class="hover-line"></i><a href="/subscribe">subscribe</a></li> -->
+                  <li class="page8"><i class="hover-line"></i><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+</header>
+			<section class="s-post">
+				<div class="ctr">
+
+					<div class="single-post">
+						<h2>Blog</h2>
+						<h1>Business Intelligence Infrastructure Best Practice</h1>
+					</div>
+
+					<div class="item item-slider article_item post">
+						<div class="bl-foto1">
+							<img id="main_post" itemprop="image" src="../../view/public/img/Blog_BI_img.png" alt="BI Infrastructure">
+						</div>
+						<div class="info">
+                    		<p>
+In the realm of business intelligence (BI), a comprehensive approach to data management and analysis is crucial for transforming raw data into actionable insights. In this blog post, I will be talking about a practice that can be implemented as a BI solution for firms of different sizes. This practice encompasses a journey from data extraction to reporting, employing a series of well-defined steps to ensure data is not only accurately captured but also meaningfully interpreted.
+							</p>
+
+                        <div class="bl-foto2">
+							<img id="main_post" itemprop="image" src="../../view/public/img/BI_Infrastructure.png" alt="BI Infrastructure">
+						</div>
+
+The process begins with the Extract, Transform, Load (ETL) method, where raw data is processed, converted into the desired formats, and transferred to a dedicated server environment. At the forefront of this journey is the 'Staging' layer, where data is initially taken. In this phase, a replica of the data tables from the source server is created, and specific jobs are designed using tools such as Microsoft SSIS or Azure Data Factory to facilitate this transfer.
+<p>
+
+							</p>
+							<p>
+Following the initial staging, the 'Staging' layer acts as an interim holding area where the data undergoes cleansing and preparation. Through the use of SQL Server Management Studio (SSMS) and SQL procedures, the data is meticulously transferred to the 'Model' layer. This meticulous transfer is characterized by a cycle of data being imported from the source, refined in the 'Staging' layer, and subsequently made permanent in the 'Model' layer. To ensure a comprehensive transfer, initial jobs focus on moving the entire dataset, followed by incremental jobs designed to update only specific segments of the dataset, enhancing efficiency and maintaining the currency of the model layer.
+							</p>
+							<p>
+
+In the Model layer, the establishment of new views for the data tables marks a pivotal step. These views are instrumental in constructing the Data Warehouse (DWH), laying the groundwork for further analysis. The utilization of SQL Server Analysis Services (SSAS) to develop a tabular model based on the Snowflake schema is a critical component of this phase. This model facilitates the creation of necessary metrics through the DAX (Data Analysis Expressions) language and manages authorization processes efficiently. Moreover, the tabular model enables comprehensive reporting capabilities through a live connection on Power BI, allowing for a diverse range of insights and analyses.
+
+							</p>
+							<p>
+
+This BI practice offers a structured and flexible framework for data management, from initial processing to sophisticated reporting, providing a robust foundation for data-driven decision-making. By following this approach, organizations can leverage their data assets to gain a competitive edge, ensuring that their data not only informs but also drives strategic actions.
+
+							</p>
+                   		 	<p class="city">Istanbul, Turkey<br>mustafa.kurtogluu97@gmail.com</p>
+                    		<p><a href="../MustafaKurtoglu_CV.docx" target="_blank">Download my CV</a></p>
+                		</div>
+
+						<div class="bl_ctr">
+							<div class="bl-info">
+								<div class="bl-date_time">
+									<div class="date">February 15, 2024</div>
+									<div class="time">5 min read</div>
+								</div>
+															</div>
+						</div>
+
+					</div>
+			  </div>
+			</section>
+	  	</div>
+		</div>
+
+
+    <!-- JavaScript files -->
+    <script type="text/javascript" src="../../view/public/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../view/public/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../../view/public/js/slick.min.js"></script>
+    <script type="text/javascript" src="../../view/public/js/anchor.min.js"></script>
+    <script type="text/javascript" src="../../view/public/js/about.js"></script>
+    <script type="text/javascript" src="../../view/public/js/core.js"></script>
+
+    <!-- Google Analytics script -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=UA-124921497-1'></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124921497-1');
+    </script>
+
+    <!-- Script to set the active menu element -->
+    <script>
+        setActiveMenuElement('page', 1);
+    </script>
+</body>
+
+</html>
